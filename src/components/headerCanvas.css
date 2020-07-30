@@ -1,0 +1,84 @@
+#canvas {
+    display: flex;
+  }
+  #header {
+    margin-bottom: 28px;
+    width: 50%;
+  }
+  header {
+    align-items: center;
+    justify-content: center;
+  }
+  #logo {
+    float: left;
+  }
+  
+  .site-title .logo {
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-transform: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.2em;
+  }
+  h1 {
+    color: #000;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+   
+  ul {
+    list-style-type: none;
+  }
+  .menuNav {
+    direction: ltr;
+    width: 50%;
+    align-self: end;
+    align-content: flex-end;
+  }
+  
+  nav > ul {
+    display: inline-flex;
+    text-align: end;
+    justify-content: space-around;
+  }
+  nav > ul > li {
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  
+  .mainNav > li > a {
+      color: grey;
+  } 
+  .mainNav > li > a:hover {
+      color: orange;
+  }
+  a:hover {
+    color: orange;
+  }
+  
+  @media only screen and (max-width: 750px){
+    #canvas {
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+    #header {
+      margin-bottom: 30px;
+    }
+    #logo {
+      float: none !important;
+    }
+    h1.logo {
+      text-align: center !important;
+      display: block !important;
+      letter-spacing: 0 !important;
+      margin: 0 !important;
+    }
+  }
+  
