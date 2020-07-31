@@ -1,11 +1,12 @@
 body {
   text-align: center;
-  background-color: #1c1d1f;
+  background-color: gainsboro;
 }
 .mainBody {
-  background-color: paleturquoise;
+  background-color: whitesmoke;
   max-width: 800px;
   margin: 10px auto;
   padding: 65px;
   border-radius: 20px;
 }
+

@@ -14,8 +14,8 @@ function headerCanvas() {
           <div class="menuNav">
             <nav>
               <ul class="mainNav">
-                <li><a href="#">About this site</a></li>
-                <li><a href="#">About Me</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
               </ul>
             </nav>
           </div>
