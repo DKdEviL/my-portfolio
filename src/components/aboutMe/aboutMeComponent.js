@@ -14,7 +14,7 @@ function aboutMe() {
                     I am a 2020 B.Tech Computer Science Graduate from <a href={links.urls.uniLink} target="_blank">DCRUST</a>.
                 </p>
                 <p>
-                    I spent my time learning new things, coding at <a href={links.urls.hckrUrl} target="_blank">Hackerearth</a>.
+                    I spent my time learning new things, coding at <a href={links.urls.hckrUrl} target="_blank">Hackerearth</a>, playing video games.
                 </p>
                 <p> 
                     The following line describes me best:
