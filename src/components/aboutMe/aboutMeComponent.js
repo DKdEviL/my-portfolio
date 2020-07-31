@@ -3,6 +3,7 @@ import links from '../../assets/strings';
 import Quote from './quote/quote'
 import './aboutMeComponent.css';
 
+
 function aboutMe() {
     return (
         <div id="container">
