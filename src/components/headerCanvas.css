@@ -69,6 +69,7 @@
     color: orange;
   }
   
+  
   @media only screen and (max-width: 800px){
     #canvas {
       margin: 0 auto;
