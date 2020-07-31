@@ -7,6 +7,9 @@ import AboutMe from './components/aboutMe/aboutMeComponent'
 function App() {
   return (
     <div className="App">
+      <div>
+        <p>Development is in Progress..</p>
+      </div>
       <div className="mainBody">
         <HeaderCanvas />
         <AboutMe />
