@@ -1,0 +1,16 @@
+.quote {
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+}
+.quote > blockquote  {
+    margin: 0;
+}
+.quote > blockquote> cite, figcaption {
+    font-family: 'Acme', sans-serif;
+    opacity: 0.5;
+}
+.quote > figcaption {
+    float: right;
+}
