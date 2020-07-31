@@ -1,0 +1,38 @@
+.social {
+    border-top: double;
+    border-bottom: double;
+    display: flex;
+    justify-content: center;
+}
+
+.social > a {
+    display: flex;
+    color: whitesmoke;
+    width: 20%;
+    background-color: darkslategray;
+    margin: auto;
+}
+.social > a:hover{
+    background-color: floralwhite;
+    color: black;
+    font-weight: 400;
+}
+.social > a > div > p {
+    max-width: 80%;
+    color: white;
+    margin-left: 0px;
+    text-align: start;
+}
+.icon {
+    width: 20%;
+    height: 40px;
+    padding-left: 10%;
+    padding-right: 10px;
+    align-self: center;
+}
+.over {
+    padding-right: 0px;
+}
+.flow {
+    padding-left: 0px;
+}
