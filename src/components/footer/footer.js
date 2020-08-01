@@ -3,11 +3,11 @@ import './footer.css';
 
 function Footer () {
     return(
-        <div className="footer">
+        <footer className="footer">
             <div>
                 <p>&copy; <i>Deepak</i></p>
             </div>
-        </div>
+        </footer>
     )
 }
 
