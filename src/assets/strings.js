@@ -6,7 +6,7 @@ const imageUrls = {
             github: "https://image.flaticon.com/icons/svg/2111/2111425.svg",
             hackerearth: "https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png",
             gmail: "https://image.flaticon.com/icons/svg/561/561127.svg",
-            twitter: "https://image.flaticon.com/icons/svg/733/733635.svg"
+            twitter: "https://image.flaticon.com/icons/svg/733/733635.svg",
         }
     },
     urls: {
