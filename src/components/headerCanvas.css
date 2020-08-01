@@ -27,7 +27,7 @@
   h1 {
     color: #000;
   }
-  a{
+  .anchor{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -55,17 +55,17 @@
     padding-top: 10px;
   }
   
-  .mainNav > li > a {
+  .mainNav > li > .anchor {
       align-self: flex-end;
       color: grey;
   } 
   .menuNav > nav {
       float: right;
   }
-  .mainNav > li > a:hover {
+  .mainNav > li > .anchor:hover {
       color: orange;
   }
-  a:hover {
+  .anchor:hover {
     color: orange;
   }
   

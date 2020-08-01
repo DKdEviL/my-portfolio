@@ -7,26 +7,25 @@
 
 .social > a {
     display: flex;
-    color: whitesmoke;
     width: 20%;
-    background-color: darkslategray;
+    text-decoration: none;
+    background-color: lavenderblush;
     margin: auto;
 }
 .social > a:hover{
-    background-color: floralwhite;
-    color: black;
-    font-weight: 400;
+    background-color: cyan;
 }
-.social > a > div > p {
+.social > a > .linkText {
     max-width: 80%;
-    color: white;
+    color: black;
+    font-family: 'Acme', sans-serif;
     margin-left: 0px;
     text-align: start;
 }
 .icon {
     width: 20%;
     height: 40px;
-    padding-left: 10%;
+    padding-left: 10px;
     padding-right: 10px;
     align-self: center;
 }
@@ -35,4 +34,35 @@
 }
 .flow {
     padding-left: 0px;
+}
+
+@media only screen and (max-width: 800px){
+    .linkText {
+        display: none;
+    }
+    .icon {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 500px){
+    
+    .linkText{
+        display: none;
+    }
+    .icon {
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .linkText {
+        display: none;
+    }
+    .icon {
+        font-size: 0;
+        width: 24px;
+        height: 24px;
+    }
 }
