@@ -4,7 +4,7 @@ class education extends Component {
     render() {
         return (
             <div>
-                <p>THis is Education Component</p>
+                <p>Under Development...👨‍💻👨‍💻👨‍💻</p>
             </div>
         )
     }
