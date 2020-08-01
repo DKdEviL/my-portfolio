@@ -6,7 +6,8 @@ import AboutMe from './components/aboutMe/aboutMeComponent'
 import Education from './components/Education/education';
 import Work from './components/work/work';
 import Social from './components/social/social';
-import Footer from './components/footer/footer'
+import Footer from './components/footer/footer';
+import MobileHeader from './components/mobileHeader/mobileHeader';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <p>Development is in Progress..</p>
       </div>
       <div className="mainBody">
+        <MobileHeader />
         <HeaderCanvas />
         <Social />
         <Switch>
