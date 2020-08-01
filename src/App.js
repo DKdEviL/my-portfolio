@@ -6,6 +6,7 @@ import AboutMe from './components/aboutMe/aboutMeComponent'
 import Education from './components/Education/education';
 import Work from './components/work/work';
 import Social from './components/social/social';
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/work" component={Work}></Route>
           <Route path="/" component={AboutMe}></Route>
         </Switch>
+        <Footer />
       </div>
     </div>
   );
