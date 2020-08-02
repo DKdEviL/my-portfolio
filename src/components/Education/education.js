@@ -6,8 +6,11 @@ class education extends Component {
     render() {
         return (
             <div className="edu">
+                <div>
+                    <p>Latest Education is Under Development...👨‍💻👨‍💻👨‍💻</p>
+                </div>
                 <Card />
-                <p>Under Development...👨‍💻👨‍💻👨‍💻</p>
+                
             </div>
         )
     }
