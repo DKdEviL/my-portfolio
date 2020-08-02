@@ -8,7 +8,9 @@ const imageUrls = {
             gmail: "https://image.flaticon.com/icons/svg/561/561127.svg",
             twitter: "https://image.flaticon.com/icons/svg/733/733635.svg",
             certificate: "https://image.flaticon.com/icons/svg/2912/2912761.svg",
-            certificates: "https://image.flaticon.com/icons/svg/901/901398.svg"
+            certificates: "https://image.flaticon.com/icons/svg/901/901398.svg",
+            close: "https://image.flaticon.com/icons/svg/980/980403.svg",
+            okay: "https://image.flaticon.com/icons/svg/3248/3248235.svg"
         }
     },
     urls: {
@@ -20,6 +22,7 @@ const imageUrls = {
         twitter: "https://twitter.com/deepak5198?s=09",
     },
     certificateUrl: {
+        android: "https://www.hpepro.com/everify",
         reactBasic: "https://www.hackerrank.com/certificates/a1d9229d6966",
         problemSolvingBasic: "https://www.hackerrank.com/certificates/47ad13a34ca5",
         htmlCSS: "https://www.udemy.com/certificate/UC-6P0GBX7B/",
