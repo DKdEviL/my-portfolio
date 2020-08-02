@@ -70,7 +70,7 @@ section {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 550px){
     .hacker-certificate {
         width: 40%;
     }
