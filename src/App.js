@@ -3,10 +3,10 @@ import './App.css';
 import {Switch, Route} from 'react-router-dom'
 import HeaderCanvas from './components/headerCanvas';
 import AboutMe from './components/aboutMe/aboutMeComponent'
-import Education from '/components/Education/education';
-import Work from '/components/work/work';
-import Social from '/components/social/social';
-import Footer from '/components/footer/footer';
+import Education from './components/Education/education';
+import Work from './components/work/work';
+import Social from './components/social/social';
+import Footer from './components/footer/footer';
 import MobileHeader from './components/mobileHeader/mobileHeader';
 
 
