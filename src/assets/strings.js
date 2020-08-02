@@ -7,6 +7,8 @@ const imageUrls = {
             hackerearth: "https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png",
             gmail: "https://image.flaticon.com/icons/svg/561/561127.svg",
             twitter: "https://image.flaticon.com/icons/svg/733/733635.svg",
+            certificate: "https://image.flaticon.com/icons/svg/2912/2912761.svg",
+            certificates: "https://image.flaticon.com/icons/svg/901/901398.svg"
         }
     },
     urls: {
@@ -15,7 +17,10 @@ const imageUrls = {
         linkedin: "https://www.linkedin.com/in/deepak-18/",
         github: "https://github.com/dkDevil",
         gmail: "mailto:deepaknardia98@gmail.com?subject=Mail From Portfolio",
-        twitter: "https://twitter.com/deepak5198?s=09"
+        twitter: "https://twitter.com/deepak5198?s=09",
+    },
+    certificateUrl: {
+        reactBasic: "https://www.hackerrank.com/certificates/a1d9229d6966",
         
     }
 };
