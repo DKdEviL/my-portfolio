@@ -43,7 +43,7 @@ class Card extends Component {
                         </a>
                         <a  onClick={this.modalToggle} className="hacker-certificate" target="_blank">
                             <img src={links.imageUrl.icons.certificates} />
-                            <h4 className="certi-name">Android</h4>
+                            <h4 className="certi-name">Android Development</h4>
                         </a>
                         <a className="hacker-certificate" href={links.certificateUrl.udacity} target="_blank">
                             <img src={links.imageUrl.icons.certificates} />
