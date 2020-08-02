@@ -21,7 +21,11 @@ const imageUrls = {
     },
     certificateUrl: {
         reactBasic: "https://www.hackerrank.com/certificates/a1d9229d6966",
-        
+        problemSolvingBasic: "https://www.hackerrank.com/certificates/47ad13a34ca5",
+        htmlCSS: "https://www.udemy.com/certificate/UC-6P0GBX7B/",
+        udacity: "https://confirm.udacity.com/QXHCVDRD",
+        java: "https://students.codingninjas.com/fb-share/MjhkYzY0ZmYwZWZjNmVmMA",
+        dataProcessing: "https://www.myamcat.com/certificate/12104662/data-processing-specialist/211"
     }
 };
 

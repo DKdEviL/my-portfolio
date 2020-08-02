@@ -53,6 +53,7 @@ section {
 .hacker-certificate:hover {
     color: orange;
 }
+
 .hacker-certificate > img {
     width: 100%;
     margin: 10px;
@@ -61,4 +62,10 @@ section {
 .certi-name{
     font-size: 16px;
     font-family: 'Acme', sans-serif;
+}
+
+.isDisabled {
+    cursor: not-allowed;
+    color: gray;
+  opacity: 0.5;
 }
