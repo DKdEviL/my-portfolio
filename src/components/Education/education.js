@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './education.css';
-import Card from './card/card'
+import Certificates from './certificates/certificates';
+import Universities from './universities/universities';
 
 class education extends Component {
     render() {
@@ -9,7 +10,8 @@ class education extends Component {
                 <div>
                     <p>Latest Education is Under Development...👨‍💻👨‍💻👨‍💻</p>
                 </div>
-                <Card />
+                <Universities />
+                <Certificates />
                 
             </div>
         )

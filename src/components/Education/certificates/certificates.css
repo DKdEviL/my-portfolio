@@ -1,0 +1,39 @@
+
+.card-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.hacker-certificate {
+    width: 150px;
+    color: black;
+    text-decoration: none;
+}
+.hacker-certificate:hover {
+    color: orange;
+}
+
+.hacker-certificate > img {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+}
+.certi-name{
+    font-size: 16px;
+    font-family: 'Acme', sans-serif;
+    margin-top: 0;
+}
+
+.isDisabled {
+    cursor: not-allowed;
+    color: gray;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 550px){
+    .hacker-certificate {
+        width: 40%;
+    }
+}
