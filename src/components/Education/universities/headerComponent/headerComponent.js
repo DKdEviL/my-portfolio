@@ -3,9 +3,9 @@ import './headerComponent.css';
 import links from '../../../../assets/strings'
 function Header(props) {
     return (
-        <div className="degree-header" onClick={props.clicked}>
-            <h4><span>{props.course}</span></h4>
-            <div className="image-button-container">
+        <div className="degree-header" >
+            <h4 onClick={props.clicked}><span>{props.course}</span></h4>
+            <div className="image-button-container" onClick={props.clicked}>
                 {
                     props.show ?
                         <img className="section-card-icon ui-svg-icon" viewBox="0 0 24 24" width="24px" height="24px" src="https://image.flaticon.com/icons/svg/659/659892.svg" /> :

@@ -30,7 +30,7 @@
     float: right;
 }
 .degree {
-    -webkit-tap-highlight-color: transparent;
+    
     user-select: none;
     border: 3px double;
     margin: auto;
