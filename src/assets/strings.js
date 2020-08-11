@@ -9,6 +9,7 @@ const imageUrls = {
             twitter: "https://image.flaticon.com/icons/svg/733/733635.svg",
             certificate: "https://image.flaticon.com/icons/svg/2912/2912761.svg",
             certificates: "https://image.flaticon.com/icons/svg/901/901398.svg",
+            university: "https://image.flaticon.com/icons/svg/2681/2681826.svg",
             close: "https://image.flaticon.com/icons/svg/980/980403.svg",
             okay: "https://image.flaticon.com/icons/svg/3248/3248235.svg"
         }
