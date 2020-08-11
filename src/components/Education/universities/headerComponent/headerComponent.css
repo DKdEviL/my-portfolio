@@ -1,5 +1,6 @@
 .degree-header {
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -29,6 +30,7 @@
     float: right;
 }
 .degree {
+    -webkit-tap-highlight-color: transparent;
     user-select: none;
     border: 3px double;
     margin: auto;
