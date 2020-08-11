@@ -1,0 +1,79 @@
+.degree-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid gray;
+}
+.degree-header:hover {
+    cursor: pointer;
+}
+.degree-header > h4{
+    margin: 0;
+    width: 50%;
+} 
+.degree-header> h4 > span {
+    margin: 0;
+    float: left;
+}
+.image-button-container {
+    width: 50%;
+}
+.image-button-container > img {
+    margin: 0;
+    float: right;
+}
+.degree {
+    border: 3px double;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.clg {
+    margin-left: 30px;
+    margin-right: 30px;    
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    border-color: rgba(17,17,17,.2);
+    text-align: center;
+}
+.pointer {
+    display: flex;
+    margin: auto;
+}
+.pointer > h5 {
+    width: 50%;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+.big-screen {
+    display: block;
+    text-align: center;
+}
+.anchor:hover {
+    color: orange;
+}
+.small-screen {
+    display: none;
+    text-align: center;
+}
+@media only screen and (max-width: 650px){
+    .big-screen {
+        display: none;
+    }
+    .small-screen{
+        padding-top: 10px;
+        display: block;
+    }
+    .pointer > h5 {
+        margin-top: 10px;
+    }
+}

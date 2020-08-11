@@ -10,6 +10,7 @@ const imageUrls = {
             certificate: "https://image.flaticon.com/icons/svg/2912/2912761.svg",
             certificates: "https://image.flaticon.com/icons/svg/901/901398.svg",
             university: "https://image.flaticon.com/icons/svg/2681/2681826.svg",
+            student: "https://image.flaticon.com/icons/svg/950/950009.svg",
             close: "https://image.flaticon.com/icons/svg/980/980403.svg",
             okay: "https://image.flaticon.com/icons/svg/3248/3248235.svg"
         }
@@ -21,6 +22,7 @@ const imageUrls = {
         github: "https://github.com/dkDevil",
         gmail: "mailto:deepaknardia98@gmail.com?subject=Mail From Portfolio",
         twitter: "https://twitter.com/deepak5198?s=09",
+        dcrust: "http://www.dcrustm.ac.in/"
     },
     certificateUrl: {
         android: "https://www.hpepro.com/everify",
