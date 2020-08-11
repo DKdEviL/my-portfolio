@@ -1,4 +1,5 @@
 .degree-header {
+    user-select: none;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -28,6 +29,7 @@
     float: right;
 }
 .degree {
+    user-select: none;
     border: 3px double;
     margin: auto;
     display: flex;
