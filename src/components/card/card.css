@@ -10,7 +10,8 @@ section {
 }
 .section-card-header {
     display: flex;
-    float: left;
+    float: right;
+    width: 100%;
     margin-left: -5px;
 }
 .ui-svg-icon {

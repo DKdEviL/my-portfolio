@@ -11,11 +11,7 @@ class Card extends Component {
                     <img src={this.props.imageUrl}  viewBox="0 0 24 24" width="24px" height="24px" className="section-card-icon ui-svg-icon" fill="currentColor" />
                     <h2 className="section-card-heading">{this.props.headingText}</h2> 
                 </header>
-                
-                <div className="section-card-content">
-                    {this.props.children}
-                </div>
-                    
+                {this.props.children}                    
             </section>
         )
     }
