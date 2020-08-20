@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import './certificates.css';
-import Card from '../card/card';
+import Card from '../../card/card';
 import Modal from '../../modal/modal';
 import links from '../../../assets/strings';
 

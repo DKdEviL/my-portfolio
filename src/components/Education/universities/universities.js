@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './universities.css';
-import Card from '../card/card';
+import Card from '../../card/card';
 import links from '../../../assets/strings';
 import Header from './headerComponent/headerComponent';
 
