@@ -11,14 +11,14 @@
     margin-left: auto;
     border-bottom: 1px solid gray;
 }
-.degree-header > h4:hover, .image-button-container:hover {
+.card-content-header:hover, .image-button-container:hover {
     cursor: pointer;
 }
-.degree-header > h4{
+.card-content-header{
     margin: 0;
     width: 50%;
 } 
-.degree-header> h4 > span {
+.card-content-header span {
     margin: 0;
     float: left;
 }
