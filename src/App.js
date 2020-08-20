@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import {Switch, Route} from 'react-router-dom'
-import HeaderCanvas from './components/headerCanvas';
+import HeaderCanvas from './components/layouts/header/headerCanvas';
 import AboutMe from './components/aboutMe/aboutMeComponent'
 import Education from './components/Education/education';
 import Work from './components/work/work';
 import Social from './components/social/social';
-import Footer from './components/footer/footer';
-import MobileHeader from './components/mobileHeader/mobileHeader';
+import Footer from './components/layouts/footer/footer';
+import MobileHeader from './components/layouts/mobileHeader/mobileHeader';
 
 
 function App() {
