@@ -12,7 +12,9 @@ const imageUrls = {
             university: "https://image.flaticon.com/icons/svg/2681/2681826.svg",
             student: "https://image.flaticon.com/icons/svg/950/950009.svg",
             close: "https://image.flaticon.com/icons/svg/980/980403.svg",
-            okay: "https://image.flaticon.com/icons/svg/3248/3248235.svg"
+            okay: "https://image.flaticon.com/icons/svg/3248/3248235.svg",
+            projects: "https://image.flaticon.com/icons/svg/1087/1087815.svg",
+            work: "https://image.flaticon.com/icons/svg/2726/2726629.svg"
         }
     },
     urls: {
