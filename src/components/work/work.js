@@ -4,7 +4,7 @@ import React from 'react';
 function Work() {
     return (
         <div>
-            <p>Under Development...👨‍💻👨‍💻👨‍💻</p>
+            <p>In Development...👨‍💻👨‍💻👨‍💻</p>
         </div>
     )
 }
