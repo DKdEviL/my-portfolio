@@ -21,9 +21,9 @@ const Modal = props => {
                 <div>
                     {props.children}
                 </div>
-                <footer className="modal-Footer">
+                <footer className="modal-Footer" style={{display: props.footerStyle}}>
                     <div className="okay">
-                        <a href={links.certificateUrl.android} target="_blank">
+                        <a href={props.navigation} target="_blank">
                             <img src={links.imageUrl.icons.okay} alt="Okay Button" />
                         </a>
                     </div>
