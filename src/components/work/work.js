@@ -39,7 +39,6 @@ class Work extends Component {
                         show={this.state.showWeb} 
                     >
                         <div>
-                            <ProjectBox name={links.textValues.map} />
                             <ProjectBox name={links.textValues.burgerBuilder} />
                             <ProjectBox name={links.textValues.portfolio} />
                         </div>

@@ -57,7 +57,7 @@ const imageUrls = {
         burgerBuilder: {
             name: "Burger Builder",
             image: "https://image.flaticon.com/icons/svg/877/877951.svg",
-            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+            description: "I have developed this app to practise my ReactJs skill and to learn Redux and firebase integration in React App",
             outcomes: [
                 "ReactJs(Practise)",
                 "Redux(basics)",
@@ -67,23 +67,10 @@ const imageUrls = {
                 "Individual Skill Enhancement"
             ]
         },
-        map: {
-            name: "Neighborhood Map",
-            image: "https://image.flaticon.com/icons/svg/854/854929.svg",
-            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
-            outcomes: [
-                "ReactJs",
-                "API Itegration",
-                "Understanding Code Structer",
-                "Implementing skills to practical",
-                "Time management",
-                "Git version Control",
-            ]
-        },
         portfolio: {
             name: "Portfolio",
             image: "https://image.flaticon.com/icons/svg/942/942748.svg",
-            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+            description: "This is my portfolio project, developed to implement ReactJs skills in lockdown, and to learn implementing Web Accessibility in React App.",
             outcomes: [
                 "ReactJs(Practise)",
                 "Reusable Custom Components",
