@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Card from '../card/card';
 import CardHeader from '../Education/universities/headerComponent/headerComponent'
-import links from '../../assets/strings'
+import links from '../../assets/strings';
+import ProjectBox from './projectBox/projectBox'
 
 class Work extends Component {
     constructor(props){
@@ -30,9 +31,7 @@ class Work extends Component {
                         clicked={this.clickhandlerAndroid}
                         show={this.state.show} 
                     >
-                        <div>
-                            <p>Android Projects Here...</p> 
-                        </div>
+                        <ProjectBox name={links.textValues.androidProject} /> 
                     </CardHeader>
                     <CardHeader
                         course="Front-end Projects"
@@ -40,7 +39,9 @@ class Work extends Component {
                         show={this.state.showWeb} 
                     >
                         <div>
-                            <p>Web  Projects Here...</p>
+                            <ProjectBox name={links.textValues.map} />
+                            <ProjectBox name={links.textValues.burgerBuilder} />
+                            <ProjectBox name={links.textValues.portfolio} />
                         </div>
                     </CardHeader>
                 </div>
