@@ -14,7 +14,11 @@ const imageUrls = {
             close: "https://image.flaticon.com/icons/svg/980/980403.svg",
             okay: "https://image.flaticon.com/icons/svg/3248/3248235.svg",
             projects: "https://image.flaticon.com/icons/svg/1087/1087815.svg",
-            work: "https://image.flaticon.com/icons/svg/2726/2726629.svg"
+            work: "https://image.flaticon.com/icons/svg/2726/2726629.svg",
+            basket: "https://image.flaticon.com/icons/svg/791/791019.svg",
+            burger: "https://image.flaticon.com/icons/svg/877/877951.svg",
+            map: "https://image.flaticon.com/icons/svg/854/854929.svg",
+            portfolio: "https://image.flaticon.com/icons/svg/942/942748.svg"
         }
     },
     urls: {
@@ -34,6 +38,9 @@ const imageUrls = {
         udacity: "https://confirm.udacity.com/QXHCVDRD",
         java: "https://students.codingninjas.com/fb-share/MjhkYzY0ZmYwZWZjNmVmMA",
         dataProcessing: "https://www.myamcat.com/certificate/12104662/data-processing-specialist/211"
+    },
+    textValues: {
+        androidProject: "This app is to implement our Android skills which we had learnt at Techlive solutions."
     }
 };
 
