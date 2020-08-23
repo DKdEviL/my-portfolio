@@ -69,3 +69,12 @@
     color: #FFFFFF;
     background:  #416dea;
   }
+
+  @media only screen and (max-width: 700px){
+      .project-image {
+          display: none;
+      }
+      .details-container  {
+          width: 100%;
+      }
+  }
