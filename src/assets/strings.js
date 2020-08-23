@@ -40,10 +40,62 @@ const imageUrls = {
         dataProcessing: "https://www.myamcat.com/certificate/12104662/data-processing-specialist/211"
     },
     textValues: {
-        androidProject: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
-        burgerBuilder: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
-        map: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
-        portfolio: "This app is to implement our Android skills which we had learnt at Techlive solutions."
+        androidProject: {
+            name: "Food Delivery",
+            image: "https://image.flaticon.com/icons/svg/791/791019.svg",
+            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+            outcomes: [
+                "Android Development",
+                "Android Debugging",
+                "Android Class Lifecycle",
+                "Using External Library in Android",
+                "Android Studio",
+                "Team Management",
+                "Team Leadership",
+            ]
+        },
+        burgerBuilder: {
+            name: "Burger Builder",
+            image: "https://image.flaticon.com/icons/svg/877/877951.svg",
+            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+            outcomes: [
+                "ReactJs(Practise)",
+                "Redux(basics)",
+                "Routing",
+                "Responsive web Design",
+                "Firebase Integration",
+                "Individual Skill Enhancement"
+            ]
+        },
+        map: {
+            name: "Neighborhood Map",
+            image: "https://image.flaticon.com/icons/svg/854/854929.svg",
+            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+            outcomes: [
+                "ReactJs",
+                "API Itegration",
+                "Understanding Code Structer",
+                "Implementing skills to practical",
+                "Time management",
+                "Git version Control",
+            ]
+        },
+        portfolio: {
+            name: "Portfolio",
+            image: "https://image.flaticon.com/icons/svg/942/942748.svg",
+            description: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+            outcomes: [
+                "ReactJs(Practise)",
+                "Reusable Custom Components",
+                "State Management",
+                "Props Management",
+                "Responsive Web Design",
+                "Git Bash",
+                "Deploying Github to Netlify.com",
+                "Error resolving",
+                "Web Accessibility(To Do)"
+            ]
+        }
     }
 };
 
