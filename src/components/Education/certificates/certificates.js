@@ -60,7 +60,7 @@ class certificates extends Component{
                             <h4 className="certi-name">More Will Come Soon...</h4>
                         </a>
                     </div>
-                <Modal show={this.state.modalTrigger} modalClosed={this.modalHandler}>
+                <Modal show={this.state.modalTrigger} modalClosed={this.modalHandler} navigation={links.certificateUrl.android}>
                     <div style={{color:'black', margin: "20px"}}>
                         Please Copy the Certificate No.: 
                         <div style={{margin: "20px"}}>
