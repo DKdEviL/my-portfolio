@@ -40,7 +40,10 @@ const imageUrls = {
         dataProcessing: "https://www.myamcat.com/certificate/12104662/data-processing-specialist/211"
     },
     textValues: {
-        androidProject: "This app is to implement our Android skills which we had learnt at Techlive solutions."
+        androidProject: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+        burgerBuilder: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+        map: "This app is to implement our Android skills which we had learnt at Techlive solutions.",
+        portfolio: "This app is to implement our Android skills which we had learnt at Techlive solutions."
     }
 };
 
