@@ -54,6 +54,20 @@ const imageUrls = {
                 "Team Leadership",
             ]
         },
+        privy: {
+            name: "Privy: Placement Prediction App",
+            image: "https://image.flaticon.com/icons/svg/1924/1924608.svg",
+            description: "A React Native App to help junior students to predict their placement and to recommend career choice based on their marks in different subjects.",
+            outcomes: [
+                "React Native Development",
+                "React Native Component Lifecycle",
+                "Firebase Auth Integration",
+                "Using third party libraries",
+                "REST API in React Native",
+                "Expo Publishing",
+                "Team Management",
+            ]
+        },
         burgerBuilder: {
             name: "Burger Builder",
             image: "https://image.flaticon.com/icons/svg/877/877951.svg",
