@@ -32,6 +32,7 @@ class Work extends Component {
                         show={this.state.show} 
                     >
                         <ProjectBox name={links.textValues.androidProject} /> 
+                        <ProjectBox name={links.textValues.privy} />
                     </CardHeader>
                     <CardHeader
                         course="Front-end Projects"
